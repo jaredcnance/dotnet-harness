@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <VersionPrefix>0.1.0</VersionPrefix>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <AssemblyName>dotnet-harness</AssemblyName>
+    <PackageId>dotnet-harness</PackageId>
+    <OutputType>Exe</OutputType>
+    <Authors>Jared Nance</Authors>
+    <PackageType>DotnetCliTool</PackageType>
+    <PackageProjectUrl>https://github.com/jaredcnance/dotnet-harness</PackageProjectUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="System.Runtime.Loader" Version="4.3.0" />
+  </ItemGroup>
+</Project>
